@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 20px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(176, 202, 212);
+    padding: 10px;
+}
+.main{
+    display: flex;
+    margin: 20px;
+}
+.menu{
+    width: 15%;
+    height: 800px;
+    background-color: rgb(176, 202, 212);
+    padding: 10px;
+}
+.artical{
+    width: 85%;
+    height: 800px;
+    background-color: rgb(127, 146, 151);
+    margin-left: 20px;
+    overflow: hidden;
+
+}
+.tool_bar{
+    margin: 10px;
+    height: 50px;
+    background-color: rgb(176, 202, 212);
+    display: flex;
+    
+}
+.tool_bar h1{
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+}
+.tool_bar h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.tool1{
+    margin: 8px;
+    width: 100px;
+    background-color: rgb(127, 146, 151);
+    height: 35px;
+    border-radius: 10px;
+}
+.tool2{
+    margin: 8px;
+    width: 100px;
+    background-color: rgb(127, 146, 151);
+    height: 35px;
+    border-radius: 10px;
+}
+.tool3{
+    margin: 8px;
+    width: 100px;
+    background-color: rgb(127, 146, 151);
+    height: 35px;
+    border-radius: 10px;
+}
+.map{
+    margin: 10px;
+    background-color: rgb(176, 202, 212);
+    height: 720px;
+    padding: 10px;
+}
+.map h1{
+    margin-top: 320px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(127, 146, 151);
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px;
+}
